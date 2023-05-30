@@ -4,7 +4,7 @@ public class programs {
 	
 	public static void oddEven() {
 		Scanner s= new Scanner(System.in);
-		System.out.println("Enter limit");
+		System.out.println("Enter number limit");
 		int num=s.nextInt();
 		for(int i=2; i<=num;i++)
 		if (i%2==0){
